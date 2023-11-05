@@ -111,7 +111,7 @@ const PersonalisePage: React.FC<PersonaliseModalProps> = ({
     useEffect(() => {
         if (currUser && isOpen) { 
             fetch(
-                `https://demo.mp.com/mp/profile?wSID=432&mPID=${currUser.getMPID()}`,
+                `https://demo.mp.com/mp/profile?wSID=903&mPID=${currUser.getMPID()}`,
             )
                 .then((response) => response.json())
                 .then((data) => {
