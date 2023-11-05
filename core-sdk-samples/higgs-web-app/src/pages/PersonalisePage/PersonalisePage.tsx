@@ -12,7 +12,7 @@ import {
     InputAdornment,
     TextField,
 } from '@mui/material';
-import HiggsmartLogo from '../../assets/images/higgsmart-logo.webp';
+import HiggsmartLogo from '../../assets/images/higgsmart-logo.png';
 import SalesImage from '../../assets/images/Sales.jpg';
 import DiscountTopImage from '../../assets/images/discount-top.jpg';
 import DiscountBottomImage from '../../assets/images/discount-bottom.png';
