@@ -114,7 +114,6 @@ const PersonalisePage: React.FC<PersonaliseModalProps> = ({
             )
                 .then((response) => response.json())
                 .then((data) => {
-                    //console.log(`Fetched Profile: ${JSON.stringify(data.user_profile.audience_memberships)}`);
                     if (
                         data.user_profile.audience_memberships &&
                         data.user_profile.audience_memberships.length > 0  &&
