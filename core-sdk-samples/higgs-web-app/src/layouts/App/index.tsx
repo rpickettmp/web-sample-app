@@ -28,7 +28,7 @@ import { StartShoppingModal } from '../../components/StartShoppingModal';
 import PersonaliseContextProvider from '../../contexts/PersonaliseContext';
 
 const brazeKit = require('@mparticle/web-braze-kit');
-const googleanalyticsKit = require('@mparticle/web-google-analytics-kit');
+const googleanalyticsKit = require('@mparticle/web-google-analytics-4-client-kit');
 const braze = require('@braze/web-sdk');
 const brazeServiceWorker = require('@braze/service-worker');
 

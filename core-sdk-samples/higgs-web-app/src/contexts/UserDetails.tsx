@@ -16,7 +16,7 @@ interface User {
 interface UserDetailsStore {
     user: User | null;
     isLoggedIn: boolean;
-    login(username: string): User;
+    login(email: string, customerid: string): User;
     logout(): void;
 }
 
@@ -55,13 +55,13 @@ const UserDetailsProvider: React.FC = ({ children }) => {
 
             return myUser;
         }; */
-        const login = (myid: string) => {
+        const login = (myEmail: string, myCustomerID: string) => {
             // In a real-world application, the user record would be pulled
             // from a database. In our Sample App, we are simply hard-coding
             // user details for demonstration purposes
             const myUser: User = {
-                email: myid,
-                customerid: 'K1081763',
+                email: myEmail,
+                customerid: myCustomerID,
             };
 
             setUser(myUser);

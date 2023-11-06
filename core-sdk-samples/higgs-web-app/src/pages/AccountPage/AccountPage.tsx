@@ -11,9 +11,195 @@ import { AccountDetails, LoginView } from '../../features/AccountDetails';
 // learn more about many of the other features, please visit our Doc Site:
 // https://docs.mparticle.com/developers/sdk/web/idsync/
 
+interface userInfo {
+    [email: string]: [
+        customerId: string,
+        firstName: string,
+        lastName: string,
+        address: string,
+        city: string,
+        country: string,
+        postCode: string,
+    ]
+}
+
 const AccountPage = () => {
     const [accessToken, setAccessToken] = useState('');
     const [userProfile, setUserProfile] = useState('');
+
+    const dictAccouts: userInfo = {
+        'ruiz-dm0611@mailinator.com': [
+            '82248297',
+            'Alejandro',
+            'Ruiz',
+            '1-11 Hawley Cres',
+            'London',
+            'United Kingdom',
+            'NW1 8NP',
+        ],
+        'kolb-dm0611@mailinator.com': [
+            '37261051',
+            'Allie',
+            'Kolb',
+            '1-11 Hawley Cres',
+            'London',
+            'United Kingdom',
+            'NW1 8NP',
+        ],
+        'mears-dm0611@mailinator.com': [
+            '27530188',
+            'Amanda',
+            'Mears',
+            '1-11 Hawley Cres',
+            'London',
+            'United Kingdom',
+            'NW1 8NP',
+        ],
+        'kent-dm0611@mailinator.com': [
+            '40560932',
+            'Charlotte',
+            'Kent',
+            '1-11 Hawley Cres',
+            'London',
+            'United Kingdom',
+            'NW1 8NP',
+        ],
+        'abramson-dm0611@mailinator.com': [
+            '60428437',
+            'Corey',
+            'Abramson',
+            '1-11 Hawley Cres',
+            'London',
+            'United Kingdom',
+            'NW1 8NP',
+        ],
+        'lutjen-dm0611@mailinator.com': [
+            '47026383',
+            'Kristen',
+            'Lutjen',
+            '1-11 Hawley Cres',
+            'London',
+            'United Kingdom',
+            'NW1 8NP',
+        ],
+        'janover-dm0611@mailinator.com': [
+            '19162452',
+            'Mike',
+            'Janover',
+            '1-11 Hawley Cres',
+            'London',
+            'United Kingdom',
+            'NW1 8NP',
+        ],
+        'wong-dm0611@mailinator.com': [
+            '81522670',
+            'Natalie',
+            'Wong',
+            '1-11 Hawley Cres',
+            'London',
+            'United Kingdom',
+            'NW1 8NP',
+        ],
+        'weiss-dm0611@mailinator.com': [
+            '80530758',
+            'Santhi',
+            'Weiss',
+            '1-11 Hawley Cres',
+            'London',
+            'United Kingdom',
+            'NW1 8NP',
+        ],
+        'tierney-dm0611@mailinator.com': [
+            '22806274',
+            'Garry',
+            'Tierney',
+            '1-11 Hawley Cres',
+            'London',
+            'United Kingdom',
+            'NW1 8NP',
+        ],
+        'hwang-dm0611@mailinator.com': [
+            '67545599',
+            'Jee Ah',
+            'Hwang',
+            '1-11 Hawley Cres',
+            'London',
+            'United Kingdom',
+            'NW1 8NP',
+        ],
+        'ramani-dm0611@mailinator.com': [
+            '64000561',
+            'Karthik',
+            'Ramani',
+            '1-11 Hawley Cres',
+            'London',
+            'United Kingdom',
+            'NW1 8NP',
+        ],
+        'morgans-dm0611@mailinator.com': [
+            '68434950',
+            'Laura',
+            'Morgans',
+            '1-11 Hawley Cres',
+            'London',
+            'United Kingdom',
+            'NW1 8NP',
+        ],
+        'zhang-dm0611@mailinator.com': [
+            '38234656',
+            'Lisa',
+            'Zhang',
+            '1-11 Hawley Cres',
+            'London',
+            'United Kingdom',
+            'NW1 8NP',
+        ],
+        'fuellgrabe-dm0611@mailinator.com': [
+            '83073845',
+            'Natalie',
+            'Fuellgrabe',
+            '1-11 Hawley Cres',
+            'London',
+            'United Kingdom',
+            'NW1 8NP',
+        ],
+        'sawyer-dm0611@mailinator.com': [
+            '86256916',
+            'Nick',
+            'Sawyer',
+            '1-11 Hawley Cres',
+            'London',
+            'United Kingdom',
+            'NW1 8NP',
+        ],
+        'ritson-dm0611@mailinator.com': [
+            '50427785',
+            'Lynn',
+            'Ritson',
+            '1-11 Hawley Cres',
+            'London',
+            'United Kingdom',
+            'NW1 8NP',
+        ],
+        'stewart-dm0611@mailinator.com': [
+            '73230073',
+            'Andy',
+            'Stewart',
+            '1-11 Hawley Cres',
+            'London',
+            'United Kingdom',
+            'NW1 8NP',
+        ],
+        'chan0611@mailinator.com': [
+            '83230083',
+            'Jackie',
+            'Chan',
+            '45 Broadwick Street',
+            'London',
+            'United Kingdom',
+            'W1F 9QW',
+        ],  
+    };
     // For demonstration purposes, our account page simply controls whether our
     // user has been logged in or not. In most cases, you would handle authentication
     // and security through other means, and then have mParticle integrated into that
@@ -23,12 +209,12 @@ const AccountPage = () => {
     const { user, isLoggedIn, login, logout } = useUserDetails();
     const [mPID, setMPID] = useState('');
 
-    const handleLogIn = (myid: string) => {
+    const handleLogIn = (myEmail: string) => {
         // For our example, we are simulating an external login service
         // that simply returns a user object if the login was 'successful'
         // Our Sample App does not authenticate or authorize a user, and we
         // do not handle passwords.
-        const myUser = login(myid);
+        const myUser = login(myEmail, dictAccouts[myEmail]?dictAccouts[myEmail][0]:'');
 
         // const { email, customerid } = myUser;
         const { email, customerid } = myUser;
@@ -53,11 +239,11 @@ const AccountPage = () => {
                 // Handle any necessary post-login actions
                 const currUser = result.getUser();
                 setMPID(currUser.getMPID());
-                currUser.setUserAttribute('$FirstName', 'James');
-                currUser.setUserAttribute('$LastName', 'Bond');
-                currUser.setUserAttribute('$Country', 'United Kingdom');
-                currUser.setUserAttribute('$City', 'London');
-                currUser.setUserAttribute('$Postcode', 'W1F 9QW');
+                currUser.setUserAttribute('$FirstName', dictAccouts[email]?dictAccouts[email][1]:'James');
+                currUser.setUserAttribute('$LastName', dictAccouts[email]?dictAccouts[email][2]:'Bond');
+                currUser.setUserAttribute('$Country', dictAccouts[email]?dictAccouts[email][4]:'United Kingdom');
+                currUser.setUserAttribute('$City', dictAccouts[email]?dictAccouts[email][3]:'London');
+                currUser.setUserAttribute('$Postcode', dictAccouts[email]?dictAccouts[email][5]:'W1F 9QW');
 
                 const marketingConsent = mParticle.Consent.createGDPRConsent(
                     true, // Consented
