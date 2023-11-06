@@ -110,7 +110,7 @@ const PersonalisePage: React.FC<PersonaliseModalProps> = ({
     useEffect(() => {
         if (currUser && isOpen) { 
             fetch(
-                `https://7hv6hfamleqeb2jsubwpuzr4740wgeuc.lambda-url.us-east-1.on.aws/profile?wSID=903&mPID=${currUser.getMPID()}`,
+                `https://rzyfrgbe4fnp2t3xyifmubmrme0heyvk.lambda-url.us-east-1.on.aws/profile?wSID=903&mPID=${currUser.getMPID()}`,
             )
                 .then((response) => response.json())
                 .then((data) => {
