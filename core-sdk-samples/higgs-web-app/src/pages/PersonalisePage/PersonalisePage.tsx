@@ -117,17 +117,15 @@ const PersonalisePage: React.FC<PersonaliseModalProps> = ({
                 .then((data) => {
                     console.log(`Fetched Profile: ${JSON.stringify(data)}`);
                     if (
-                        data.user_profile &&
                         data.audience_memberships &&
-                        data.user_profile.audience_memberships.length > 0  &&
-                        isInAudience(data.user_profile.audience_memberships, 'Cart Abandonment')        
+                        data.audience_memberships.length > 0  &&
+                        isInAudience(data.audience_memberships, 'Cart Abandonment')        
                     ) {
                         setOpenModalC(isOpen || false);
                     } else if (
-                        data.user_profile &&
-                        data.user_profile.user_attributes &&
-                        'newsletter Subscriber' in data.user_profile.user_attributes &&
-                        data.user_profile.user_attributes['newsletter Subscriber'] === 'true'
+                        data.user_attributes &&
+                        'newsletter Subscriber' in data.user_attributes &&
+                        data.user_attributes['newsletter Subscriber'] === 'true'
                     ) {
                         setOpenModalB(isOpen || false);
                     } else {
