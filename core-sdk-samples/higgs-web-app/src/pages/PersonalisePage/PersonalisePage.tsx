@@ -111,13 +111,14 @@ const PersonalisePage: React.FC<PersonaliseModalProps> = ({
         if (currUser && isOpen) { 
             fetch(
                 `https://rzyfrgbe4fnp2t3xyifmubmrme0heyvk.lambda-url.us-east-1.on.aws/profile?wSID=903&mPID=${currUser.getMPID()}`,
+                // `https://demo.mp.com/mp/profile?wSID=432&mPID=${currUser.getMPID()}`,
             )
                 .then((response) => response.json())
                 .then((data) => {
                     console.log(`Fetched Profile: ${JSON.stringify(data)}`);
                     if (
                         data.user_profile &&
-                        data.user_profile.audience_memberships &&
+                        data.audience_memberships &&
                         data.user_profile.audience_memberships.length > 0  &&
                         isInAudience(data.user_profile.audience_memberships, 'Cart Abandonment')        
                     ) {
