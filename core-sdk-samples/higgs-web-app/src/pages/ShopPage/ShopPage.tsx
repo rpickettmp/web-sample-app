@@ -90,10 +90,6 @@ const ShopPage = () => {
         mParticle.eCommerce.logImpression(impressions);
     });
 
-    useEffect(() => {
-        findBannerURL();
-    });
-
     if (!loading) {
         return (
             <Page>
