@@ -115,12 +115,14 @@ const PersonalisePage: React.FC<PersonaliseModalProps> = ({
                 .then((response) => response.json())
                 .then((data) => {
                     if (
+                        data.user_profile &&
                         data.user_profile.audience_memberships &&
                         data.user_profile.audience_memberships.length > 0  &&
                         isInAudience(data.user_profile.audience_memberships, 'Cart Abandonment')        
                     ) {
                         setOpenModalC(isOpen || false);
                     } else if (
+                        data.user_profile &&
                         data.user_profile.user_attributes &&
                         'newsletter Subscriber' in data.user_profile.user_attributes &&
                         data.user_profile.user_attributes['newsletter Subscriber'] === 'true'
