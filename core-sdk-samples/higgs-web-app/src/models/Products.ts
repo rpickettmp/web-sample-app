@@ -1,28 +1,22 @@
 const products: Product[] = [
     {
-        id: '11822600',
-        label: '1460 SMOOTH LEATHER LACE UP BOOTS',
+        id: '61433740',
+        label: 'Disco velvet christmas tree dress teal',
         imageUrl:
-            'https://cdn.media.amplience.net/i/drmartens/11822600.81?$smart1024$&fmt=auto',
+            'https://www.monsoon.co.uk/dw/image/v2/BDLV_PRD/on/demandware.static/-/Sites-monsoon-master-catalog/default/dw93442a21/images/large/01_61433740_2.jpg?sw=663&sh=848&sm=cut',
         imageUrl2:
-            'https://cdn.media.amplience.net/i/drmartens/11822600.80?$smart1024$&fmt=auto',
-        altText: '1460 SMOOTH LEATHER LACE UP BOOTS',
-        price: 169.00,
+            'https://www.monsoon.co.uk/dw/image/v2/BDLV_PRD/on/demandware.static/-/Sites-monsoon-master-catalog/default/dw3f7c7893/images/large/04_61433740_4.jpg?sw=663&sh=848&sm=cut',
+        altText: 'Disco velvet christmas tree dress teal',
+        price: 38.00,
         variants: {
-            color: ['Red — SMOOTH', 'Cherry Red — SMOOTH', 'Black — SMOOTH', 'White — SMOOTH'],
-            size: ['3', '4', '5', '6', '7', '8', '9', '10'],
-            style: ['LACE UP BOOTS'],
-            silhouette: ['1460 BOOTS'],
+            color: ['Teal'],
+            size: ['3-4', '5-6', '7-8', '9-10', '11-12', '12-13', '14-15'],
+            style: ['Girls Dresses'],
         },
-        category: 'Women',
-        brand: "Dr Martens",
+        category: 'Kids',
+        brand: "Monsoon",
         description: `
-        The 1460 is the original Dr. Martens boot. Its instantly recognizable DNA looks like this: 8 eyes, classic Dr. Martens Smooth leather, grooved sides, a heel-loop, yellow stitching, and a comfortable, air-cushioned sole. Now in more shades than ever.
-
-* Born on 01.04.60. Named the 1460. Over six decades, our 8-eye work boot has become iconic
-* Hardwearing and famously tough, our Smooth leather can be polished to shine or scuffed-up
-* Our Goodyear-welted lines are heat-sealed at 700°C and reinforced with our signature welt stitch
-
+        Oh, Christmas tree, oh, Christmas tree. Comprised of a shiny velvet t-shirt bodice and layered tulle skirt, this dress is perfect for patrolling the tree and sneaking chocolates. Finished with embroidered Christmas trees to the skirt.
 `,
     },
     {
