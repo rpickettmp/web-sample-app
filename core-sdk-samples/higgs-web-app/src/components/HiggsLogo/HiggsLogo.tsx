@@ -1,7 +1,7 @@
 import { Box } from '@mui/material';
 // import logo from '../../assets/images/Dev-Higgs.svg';
 // import logo from 'https://www.transa.ch/e8244f7dbcc1ab027f995700b8db7846d113a5d5/assets/base/frontend-core/staticImages/transa-logo.svg';
-import logo from 'https://www.monsoon.co.uk/on/demandware.static/-/Library-Sites-monsoon-content-global/default/dwe907f9ba/global/monsoon-logo-white-3.png';
+import logo from '../../assets/images/monsoon-logo-white-3.png';
 
 const HiggsLogo = () => (
     <Box
