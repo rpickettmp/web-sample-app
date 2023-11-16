@@ -7,7 +7,7 @@ const HiggsmartLogo = () => (
         component='img'
         src={logo}
         alt='HiggsMart'
-        sx={{ width: 'auto', height: 19 }}
+        sx={{ width: 'auto', height: 25 }}
     />
 );
 
