@@ -217,9 +217,9 @@ const NavigationMenu: React.FC = () => {
         />,
 
         <NavigationMenuItem
-            testId='desktop-nav-men-button'
+            testId='desktop-nav-kids-button'
             component={Link}
-            to='/shop/men'
+            to='/shop/kids'
             sx={[
                 classes.link,
                 classes.homeLink,
@@ -232,8 +232,8 @@ const NavigationMenu: React.FC = () => {
                     },
                 },
             ]}
-            label='MEN'
-            key='Men'
+            label='KIDS'
+            key='Kids'
         />,
 
         <MenuItem
@@ -258,22 +258,6 @@ const NavigationMenu: React.FC = () => {
             <HiggsmartLogo />
         </MenuItem>,
 
-        <IconButton
-            aria-label='News'
-            data-testid='desktop-nav-news-button'
-            component={Link}
-            to='/news'
-            sx={classes.link}
-            key='News'
-            size='large'
-        >
-            <Badge color='primary'>
-                <GradeSharpIcon sx={[
-                    classes.topnavLinkIcon,
-                    { fontSize: 40 },
-                ]} />
-            </Badge>
-        </IconButton>,
         <IconButton
             aria-label='Account'
             data-testid='desktop-nav-account-button'
