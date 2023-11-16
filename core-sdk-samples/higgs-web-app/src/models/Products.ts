@@ -1,17 +1,17 @@
 const products: Product[] = [
     {
         id: '61433740',
-        label: 'Disco velvet christmas tree dress teal',
+        label: 'DISCO VELVET CHRISTMAS TREE DRESS TEAL',
         imageUrl:
             'https://www.monsoon.co.uk/dw/image/v2/BDLV_PRD/on/demandware.static/-/Sites-monsoon-master-catalog/default/dw93442a21/images/large/01_61433740_2.jpg?sw=663&sh=848&sm=cut',
         imageUrl2:
             'https://www.monsoon.co.uk/dw/image/v2/BDLV_PRD/on/demandware.static/-/Sites-monsoon-master-catalog/default/dw3f7c7893/images/large/04_61433740_4.jpg?sw=663&sh=848&sm=cut',
-        altText: 'Disco velvet christmas tree dress teal',
+        altText: 'DISCO VELVET CHRISTMAS TREE DRESS TEAL',
         price: 38.00,
         variants: {
             color: ['Teal'],
             size: ['3-4', '5-6', '7-8', '9-10', '11-12', '12-13', '14-15'],
-            style: ['Girls Dresses'],
+            style: ['GIRLS DRESSES'],
         },
         category: 'Kids',
         brand: "Monsoon",
@@ -20,83 +20,67 @@ const products: Product[] = [
 `,
     },
     {
-        id: '11838002',
-        label: '1461 SMOOTH LEATHER OXFORD SHOES',
+        id: '64170109',
+        label: 'DI DOUBLE BOW JUMPER RED',
         imageUrl:
-            'https://cdn.media.amplience.net/i/drmartens/11838002.81?$smart1024$&fmt=auto',
+            'https://www.monsoon.co.uk/dw/image/v2/BDLV_PRD/on/demandware.static/-/Sites-monsoon-master-catalog/default/dwdf676ffa/images/large/51_64170109_6.jpg?sw=663&sh=848&sm=cut',
         imageUrl2:
-            'https://cdn.media.amplience.net/i/drmartens/11838002.80?$smart1024$&fmt=auto',
-        altText: '1461 SMOOTH LEATHER OXFORD SHOES',
-        price: 139.00,
+            'https://www.monsoon.co.uk/dw/image/v2/BDLV_PRD/on/demandware.static/-/Sites-monsoon-master-catalog/default/dw23cff41c/images/large/23_64170109_2.jpg?sw=663&sh=848&sm=cut',
+        altText: 'DI DOUBLE BOW JUMPER RED',
+        price: 70.00,
         variants: {
-            color: ['black - SMOOTH'],
-            size: ['3', '4', '5', '6', '7', '8', '9', '10'],
-            style: ['OXFORD SHOES'],
-            silhouette: ['1461 SHOES'],
+            color: ['Red'],
+            size: ['S', 'M', 'L', 'XL', 'XXL'],
+            style: ['KNITWEAR'],
         },
         category: 'Women',
-        brand: 'Dr Martens',
+        brand: 'Monsoon',
         description: `
-        Introducing Leather Oxford Shoes from Docs Originals – an embodiment of our legacy, now available in an expanded array of shades. With each passing season, we're revisiting our iconic colours to fuel your personal style evolution.
+        Christmas jumper day? We've got you. Cut in a classic crew neck sweater, this jumper is designed with a ribbed finish and cuff sleeves. The front is sparkling with sequin bow appliques for a more subtle take on the Christmas jumper.
 
-Championed as the second creation off the DM's production line, the 1461 is a 3-eye shoe synonymous with versatility. Crafted from our time-honored Smooth leather, these shoes stand as a testament to tradition, reinventing the classics for a modern world. Fixed atop our classic air-cushion sole, secured with the emblematic Goodyear welt yellow stitches, these shoes are a nod to our roots while propelling you into the future.
-
-* Smooth leather upper & signature yellow welt
-* Goodyear-welted heat-sealed construction
-* Air-cushioned PVC sole
-* Signature 3-eyelet Oxford design
+As part of the journey to make our clothes kinder to the world around us, this item was made using more sustainable raw materials, such as organic cotton, recycled polyester and viscose from responsibly grown forests.
 `,
     },
     {
-        id: '27280626',
-        label: '2976 YELLOW STITCH SMOOTH LEATHER CHELSEA BOOTS',
+        id: '64077901',
+        label: 'SALLY SPOT COLLAR DRESS BLACK',
         imageUrl:
-            'https://cdn.media.amplience.net/i/drmartens/27280626.81?$smart1024$&fmt=auto',
+            'https://www.monsoon.co.uk/dw/image/v2/BDLV_PRD/on/demandware.static/-/Sites-monsoon-master-catalog/default/dwaf34a76a/images/large/21_64077901_1.jpg?sw=663&sh=848&sm=cut',
         imageUrl2:
-            'https://cdn.media.amplience.net/i/drmartens/27280626.80?$smart1024$&fmt=auto',
-        altText: '2976 YELLOW STITCH SMOOTH LEATHER CHELSEA BOOTS',
-        price: 159.00,
-        category: 'Men',
-        brand: 'Dr Martens',
+            'https://www.monsoon.co.uk/dw/image/v2/BDLV_PRD/on/demandware.static/-/Sites-monsoon-master-catalog/default/dwd47a90b8/images/large/25_64077901_4.jpg?sw=663&sh=848&sm=cut',
+        altText: 'SALLY SPOT COLLAR DRESS BLACK',
+        price: 85.00,
+        category: 'Women',
+        brand: 'Monsoon',
         variants: {
-            color: ['Burgundy — SMOOTH'],
-            size: ['3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13'],
-            style: ['CHELSEA BOOTS'],
-            silhouette: ['2976 BOOTS'],
+            color: ['Black'],
+            size: ['S', 'M', 'L', 'XL', 'XXL'],
+            style: ['DRESSES'],
         },
         description: `
-        The Original DM's Chelsea boot. The 2976 dates back to the 70s and has a long-running heritage of music and mayhem. Here the classic silhouette returns in our classic Smooth leather, enhanced with yellow welt stitching and a scripted AirWair heel loop. The Chelsea boots sit on a robust air-cushioned sole, as they have since the start.
+        Nothing beats vintage. Inspired by the 50s, we've put our Monsoon twist on this dress, featuring a floral lace collar and beige spotty backdrop. The long sleeves and midi length make it suitable for styling through spring as much as winter (with the help of some tights and boots). Finished with pearlescent buttons through the bodice.
 
-
-* The 2976 is the rugged Docs take on the classic Chelsea boot. Manufactured since the 70s
-* Hardwearing and famously tough, our Smooth leather can be polished to shine or scuffed-up. It’s up to you. Clean with a damp cloth and care with Dr. Martens Shoe Polish
-* Our Goodyear-welted lines are heat-sealed at 700°C and reinforced with our signature welt stitch
+        As part of the journey to make our clothes kinder to the world around us, this item was made using more sustainable raw materials, such as organic cotton, recycled polyester and viscose from responsibly grown forests.
 `,
     },
     {
-        id: '30639001',
-        label: "ADRIAN SUEDE TASSEL LOAFERS",
+        id: '61304747',
+        label: "BABY VELVET SMOCK ROMPER RED",
         imageUrl:
-            'https://cdn.media.amplience.net/i/drmartens/30639001.81?$smart1024$&fmt=auto',
+            'https://www.monsoon.co.uk/dw/image/v2/BDLV_PRD/on/demandware.static/-/Sites-monsoon-master-catalog/default/dwf3e23759/images/large/01_61304747_2.jpg?sw=663&sh=848&sm=cut',
         imageUrl2:
-            'https://cdn.media.amplience.net/i/drmartens/30639001.80?$smart1024$&fmt=auto',
-        altText: "ADRIAN SUEDE TASSEL LOAFERS",
-        category: 'Men',
-        brand: 'Dr Martens',
-        price: 139.00,
+            'https://www.monsoon.co.uk/dw/image/v2/BDLV_PRD/on/demandware.static/-/Sites-monsoon-master-catalog/default/dwb8b3183e/images/large/04_61304747_4.jpg?sw=663&sh=848&sm=cut',
+        altText: "BABY VELVET SMOCK ROMPER RED",
+        category: 'Kids',
+        brand: 'Monsoon',
+        price: 36.00,
         variants: {
-            color: ['Black — E H SUEDE+E H SUEDE MB'],
-            size: ['3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13'],
-            style: ['LOAFERS'],
-            silhouette: ['ADRIAN SHOES'],
+            color: ['Burgundy'],
+            size: ['0-3 mths', '3-6 mths', '6-12 mts'],
+            style: ['BABY GIRL DRESSES'],
         },
         description: `
-        Our classic slip-on shoe ready for warmer days. The Adrian loafer retooled in EH Suede. Soft and supple with zero break-in required. Enhanced with the classic kiltie fringe and tassel detail popularised by youth subculture of the 70s . Set on our AirWair sole and highlighted with a secure yellow stitch.
-
-* The first Docs shoe inspired by subcultures. The Adrian rolled off the production line in the 70s - fusing mod-like smartness with DM's-level durability
-* A pillar of DM's construction. Our Original and most recognisable sole. A height of 1.25"/3.17cm — marked by a traditional DMS tread pattern that's unique to Dr. Martens. One of our most flexible soles, well known for its comfort and stability
-* EH Suede is a classic suede leather with an enhanced, silky texture. Clean with a Dr. Martens Suede Brush
-* Our Goodyear-welted lines are heat-sealed at 700˚C and reinforced with our signature welt stitch
+        As cute as a button. Add glamour to their wardrobe with this vintage-inspired, burgundy romper. Designed in velvet, it features a statement collar, embroidered roses at the front, and buttons for fastening at the back. The perfect alternative to a party dress.
 `,
     },
     {
