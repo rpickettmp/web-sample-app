@@ -301,7 +301,7 @@ const NavigationMenu: React.FC = () => {
                 {
                     fontSize: 14,
                     borderRadius: '6%',
-                    backgroundColor: '#ffe512',
+                    backgroundColor: '#f9f8f5',
                     border: 'none',
                     color: '#0E1014',
                     height: '49%',
