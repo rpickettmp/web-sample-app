@@ -42,7 +42,7 @@ const App = () => {
     const mParticleConfig: mParticle.MPConfiguration = {
         // (optional) `appName and appVersion are used to associate with your web app
         // and are included in all event uploads
-        appName: 'Dr Martens eShop',
+        appName: 'Monsoon eShop',
         appVersion: version,
         // `package` is an optional analytics attribute that mParticle
         //  uses to measure usage and diagnostics of the Sample Apps.
