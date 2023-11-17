@@ -155,8 +155,8 @@ const PersonalisePage: React.FC<PersonaliseModalProps> = ({
                     >
                         <Box
                             component='img'
-                            src={HiggsmartLogo}
-                            alt='HiggsMart'
+                            src={monsoon-logo-white-3}
+                            alt='Monsoon Logo'
                             sx={{
                                 width: '100%',
                                 height: 'auto',
@@ -164,23 +164,20 @@ const PersonalisePage: React.FC<PersonaliseModalProps> = ({
                         <Typography
                             variant='subtitle2'
                             sx={{
-                                color: '#FECF61',
+                                color: '#f9f8f5',
                                 textTransform: 'uppercase',
                                 fontSize: '20px',
-                                letterSpacing: '2px',
+                                letterSpacing: '4px',
                             }}
                         >
-                            #ToughAsYou
+                            COMFORT & JOY
                         </Typography>
                     </Box>
                 </Grid>
                 <Grid item>
                     <DialogContent>
                         <Typography variant='body1' align='center'>
-                            JOIN OUR NEWS LETTER
-                        </Typography>
-                        <Typography variant='body1' align='center'>
-                            10% Off For New Subscribers!
+                            Enjoy 15% off* your first order when you sign up to Monsoon Reward
                         </Typography>
                     </DialogContent>
                 </Grid>
