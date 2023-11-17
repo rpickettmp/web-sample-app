@@ -48,8 +48,8 @@ const ProductCard: React.FC<ProductCardProps> = ({
                 to={`/products/${id}`}
                 data-testid={testId}
                 sx={{
-                    // backgroundColor: theme.palette.primary.main,
-                    backgroundColor: 'whitesmoke',
+                    backgroundColor: theme.palette.primary.main,
+                    // backgroundColor: 'whitesmoke',
                 }}
             >
                 <CardMedia
