@@ -262,7 +262,7 @@ const PersonalisePage: React.FC<PersonaliseModalProps> = ({
                             alignItems: 'center',
                             justifyContent: 'center',
                             flexDirection: 'column',
-                            backgroundColor: '#ffe512',
+                            backgroundColor: '#DC281F',
                         }}
                     >
                         <Box
@@ -285,12 +285,20 @@ const PersonalisePage: React.FC<PersonaliseModalProps> = ({
                         <DialogActions>
                             <Button
                                 variant='contained'
-                                sx={{color: 'white', backgroundColor: '#000000'}}
+                                sx={{color: '#f9f8f5', backgroundColor: '#000000'}}
                                 onClick={handleDiscountButtonClick}
                             >
                                 APPLY 15% OFF
                             </Button>
                         </DialogActions>
+                        <Box
+                            component='img'
+                            src={DiscountBottomImage}
+                            alt='Discount-Bottom-Image'
+                            sx={{
+                                width: '100%',
+                                height: 'auto',
+                            }} />
                     </Box>
                 </Grid>
             </ModalContainer>
