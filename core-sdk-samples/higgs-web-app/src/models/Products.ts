@@ -23,9 +23,9 @@ const products: Product[] = [
         id: '64170109',
         label: 'DI DOUBLE BOW JUMPER RED',
         imageUrl:
-            'https://www.monsoon.co.uk/dw/image/v2/BDLV_PRD/on/demandware.static/-/Sites-monsoon-master-catalog/default/dwdf676ffa/images/large/51_64170109_6.jpg?sw=663&sh=848&sm=cut',
+            'https://www.monsoon.co.uk/dw/image/v2/BDLV_PRD/on/demandware.static/-/Sites-monsoon-master-catalog/default/dwdf676ffa/images/large/51_64170109_6.jpg',
         imageUrl2:
-            'https://www.monsoon.co.uk/dw/image/v2/BDLV_PRD/on/demandware.static/-/Sites-monsoon-master-catalog/default/dw23cff41c/images/large/23_64170109_2.jpg?sw=663&sh=848&sm=cut',
+            'https://www.monsoon.co.uk/dw/image/v2/BDLV_PRD/on/demandware.static/-/Sites-monsoon-master-catalog/default/dw23cff41c/images/large/23_64170109_2.jpg',
         altText: 'DI DOUBLE BOW JUMPER RED',
         price: 70.00,
         variants: {
