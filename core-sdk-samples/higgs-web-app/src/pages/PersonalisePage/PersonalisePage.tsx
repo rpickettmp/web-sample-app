@@ -291,6 +291,7 @@ const PersonalisePage: React.FC<PersonaliseModalProps> = ({
                                 APPLY 15% OFF
                             </Button>
                         </DialogActions>
+                    </Box>
                 </Grid>
             </ModalContainer>
         </>
