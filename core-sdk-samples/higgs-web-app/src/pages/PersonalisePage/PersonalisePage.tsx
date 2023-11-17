@@ -170,6 +170,8 @@ const PersonalisePage: React.FC<PersonaliseModalProps> = ({
                                 letterSpacing: '4px',
                             }}
                         >
+
+                            
                             COMFORT & JOY
                         </Typography>
                     </Box>
