@@ -170,9 +170,7 @@ const PersonalisePage: React.FC<PersonaliseModalProps> = ({
                                 letterSpacing: '4px',
                             }}
                         >
-
-                        \n \n
-                            COMFORT & JOY
+                            REWARD
                         </Typography>
                     </Box>
                 </Grid>
