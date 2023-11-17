@@ -12,7 +12,7 @@ import {
     InputAdornment,
     TextField,
 } from '@mui/material';
-import HiggsmartLogo from '../../assets/images/higgsmart-logo.png';
+import MonsoonLogo from '../../assets/images/monsoon-logo-white-3.png';
 import SalesImage from '../../assets/images/Sales.jpg';
 import DiscountTopImage from '../../assets/images/discount-top.jpg';
 import DiscountBottomImage from '../../assets/images/discount-bottom.png';
@@ -155,7 +155,7 @@ const PersonalisePage: React.FC<PersonaliseModalProps> = ({
                     >
                         <Box
                             component='img'
-                            src={monsoon-logo-white-3}
+                            src={MonsoonLogo}
                             alt='Monsoon Logo'
                             sx={{
                                 width: '100%',
