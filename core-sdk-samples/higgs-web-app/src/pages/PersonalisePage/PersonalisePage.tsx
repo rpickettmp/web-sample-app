@@ -247,7 +247,7 @@ const PersonalisePage: React.FC<PersonaliseModalProps> = ({
                     <DialogActions>
                         <Button
                             variant='contained'
-                            sx={{color: 'white', backgroundColor: '#f9f8f5'}}
+                            sx={{color: 'black', backgroundColor: '#f9f8f5'}}
                             onClick={handleCampaignButtonClick}
                         >
                             SHOP ALL
