@@ -110,7 +110,7 @@ const PersonalisePage: React.FC<PersonaliseModalProps> = ({
     useEffect(() => {
         if (currUser && isOpen) { 
             fetch(
-                `https://xqvmjmf4bsiktuxjtc6zlcfxfm0zapit.lambda-url.us-east-1.on.aws/profile?wSID=1042&mPID=${currUser.getMPID()}`,
+                `https://5x473j7afu6yhcmohllfu2utkq0fkwni.lambda-url.us-east-1.on.aws/profile?wSID=1042&mPID=${currUser.getMPID()}`,
                 // `https://demo.mp.com/mp/profile?wSID=432&mPID=${currUser.getMPID()}`,
             )
                 .then((response) => response.json())
