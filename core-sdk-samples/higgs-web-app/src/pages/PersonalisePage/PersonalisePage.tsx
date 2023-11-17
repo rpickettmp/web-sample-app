@@ -14,8 +14,8 @@ import {
 } from '@mui/material';
 import MonsoonLogo from '../../assets/images/monsoon-logo-white-3.png';
 import SalesImage from '../../assets/images/sale.png';
-import DiscountTopImage from '../../assets/images/discountbanner.png';
-import DiscountBottomImage from '../../assets/images/discount-bottom.png';
+import DiscountTopImage from '../../assets/images/bannertop.png';
+import DiscountBottomImage from '../../assets/images/bannerbottom.png';
 import { ModalContainer } from '../../components/ModalContainer';
 import { usePersonaliseContext } from '../../contexts/PersonaliseContext';
 import { useUserDetails } from '../../contexts/UserDetails';
@@ -274,7 +274,7 @@ const PersonalisePage: React.FC<PersonaliseModalProps> = ({
                                 height: 'auto',
                             }} />
                         <DialogContent>
-                            <Typography variant='h5' align='center' color='black'>           
+                            <Typography variant='h5' align='center' color='#f9f8f5'>           
                                 DON&lsquo;T FORGET...
                             </Typography>
                             <Typography variant='body1' align='center' color='#f9f8f5' sx={{alignItems: 'center', justifyContent: 'center', m: 0.02, p: 0.02}}>
@@ -285,7 +285,7 @@ const PersonalisePage: React.FC<PersonaliseModalProps> = ({
                         <DialogActions>
                             <Button
                                 variant='contained'
-                                sx={{color: '#f9f8f5', backgroundColor: '#000000'}}
+                                sx={{color: '#000000', backgroundColor: '#f9f8f5'}}
                                 onClick={handleDiscountButtonClick}
                             >
                                 APPLY 15% OFF
