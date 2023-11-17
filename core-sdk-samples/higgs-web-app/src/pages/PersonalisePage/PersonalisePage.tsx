@@ -171,7 +171,7 @@ const PersonalisePage: React.FC<PersonaliseModalProps> = ({
                             }}
                         >
 
-                            
+                        \n \n
                             COMFORT & JOY
                         </Typography>
                     </Box>
