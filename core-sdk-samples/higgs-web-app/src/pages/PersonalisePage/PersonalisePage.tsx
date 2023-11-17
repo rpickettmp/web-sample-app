@@ -13,7 +13,7 @@ import {
     TextField,
 } from '@mui/material';
 import MonsoonLogo from '../../assets/images/monsoon-logo-white-3.png';
-import SalesImage from '../../assets/images/Sales.jpg';
+import SalesImage from '../../assets/images/sale.png';
 import DiscountTopImage from '../../assets/images/discount-top.jpg';
 import DiscountBottomImage from '../../assets/images/discount-bottom.png';
 import { ModalContainer } from '../../components/ModalContainer';
@@ -235,7 +235,7 @@ const PersonalisePage: React.FC<PersonaliseModalProps> = ({
                     <Box
                         component='img'
                         src={SalesImage}
-                        alt='Dr Martens Sales'
+                        alt='Monsoon Sales'
                         sx={{
                             width: '100%',
                             height: 'auto',
@@ -247,7 +247,7 @@ const PersonalisePage: React.FC<PersonaliseModalProps> = ({
                     <DialogActions>
                         <Button
                             variant='contained'
-                            sx={{color: 'white', backgroundColor: '#e8368c'}}
+                            sx={{color: 'white', backgroundColor: '#f9f8f5'}}
                             onClick={handleCampaignButtonClick}
                         >
                             SHOP ALL
