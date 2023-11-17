@@ -14,7 +14,7 @@ import {
 } from '@mui/material';
 import MonsoonLogo from '../../assets/images/monsoon-logo-white-3.png';
 import SalesImage from '../../assets/images/sale.png';
-import DiscountTopImage from '../../assets/images/discount-top.jpg';
+import DiscountTopImage from '../../assets/images/discountbanner.png';
 import DiscountBottomImage from '../../assets/images/discount-bottom.png';
 import { ModalContainer } from '../../components/ModalContainer';
 import { usePersonaliseContext } from '../../contexts/PersonaliseContext';
@@ -275,11 +275,11 @@ const PersonalisePage: React.FC<PersonaliseModalProps> = ({
                             }} />
                         <DialogContent>
                             <Typography variant='h5' align='center' color='black'>           
-                                DON&lsquo;T FORGET YOUR 10% OFF
+                                DON&lsquo;T FORGET...
                             </Typography>
-                            <Typography variant='body1' align='center' color='black' sx={{alignItems: 'center', justifyContent: 'center', m: 0.02, p: 0.02}}>
+                            <Typography variant='body1' align='center' color='#f9f8f5' sx={{alignItems: 'center', justifyContent: 'center', m: 0.02, p: 0.02}}>
                                 <br />
-                                Your discount code is waiting for you. Follow the link below for 10% off* your first pair of Docs. Hurry, before it expires.
+                                Your discount code is waiting for you. Follow the link below for 15% off your first purchase. Hurry, before it expires.
                             </Typography>
                         </DialogContent>
                         <DialogActions>
@@ -288,18 +288,9 @@ const PersonalisePage: React.FC<PersonaliseModalProps> = ({
                                 sx={{color: 'white', backgroundColor: '#000000'}}
                                 onClick={handleDiscountButtonClick}
                             >
-                                APPLY 10% OFF DISCOUNT CODE
+                                APPLY 15% OFF
                             </Button>
                         </DialogActions>
-                        <Box
-                            component='img'
-                            src={DiscountBottomImage}
-                            alt='Discount-Bottom-Image'
-                            sx={{
-                                width: '100%',
-                                height: 'auto',
-                            }} />
-                    </Box>
                 </Grid>
             </ModalContainer>
         </>
