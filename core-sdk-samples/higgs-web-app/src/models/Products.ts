@@ -84,96 +84,63 @@ As part of the journey to make our clothes kinder to the world around us, this i
 `,
     },
     {
-        id: '15382601',
-        label: 'JUNIOR 1460 SOFTY T LEATHER LACE UP BOOTS',
+        id: '10015280001',
+        label: 'PIP FEATHER MAXI DRESS BLACK',
         imageUrl:
-            'https://cdn.media.amplience.net/i/drmartens/15382601.81?$smart1024$&fmt=auto',
+            'https://www.monsoon.co.uk/dw/image/v2/BDLV_PRD/on/demandware.static/-/Sites-monsoon-master-catalog/default/dw0fbb7bf9/images/large/51_10015280001_6.jpg?sw=663&sh=848&sm=cut',
         imageUrl2:
-            'https://cdn.media.amplience.net/i/drmartens/15382601.80?$smart1024$&fmt=auto',
-        altText: 'JUNIOR 1460 SOFTY T LEATHER LACE UP BOOTS',
-        price: 79.00,
+            'https://www.monsoon.co.uk/dw/image/v2/BDLV_PRD/on/demandware.static/-/Sites-monsoon-master-catalog/default/dw96f597bc/images/large/25_10015280001_4.jpg?sw=663&sh=848&sm=cut',
+        altText: 'PIP FEATHER MAXI DRESS BLACK',
+        price: 95.00,
         variants: {
-            color: ['Cherry Red — SOFTY T'],
-            size: ['1', '1.5', '2', '2.5', '3', '10', '10.5', '11', '11.5', '12', '13'],
-            style: ['LACE UP BOOTS'],
-            silhouette: ['1460 BOOTS'],
+            color: ['Black'],
+            size: ['8', '10', '12', '14', '16', '18', '20', '22', '24'],
+            style: ['MAXI DRESSES'],
         },
-        category: 'Girls',
-        brand: 'Dr Martens',
+        category: 'Women',
+        brand: 'Monsoon',
         description: `
-        At the feet of the next generation of rebels. Our scaled-down 1460s are half the size but packed with double the attitude. Built from extra comfortable Softy T leather, with an easy on/easy off side zip and sits on a comfortable, flexible sole. Perfect for growing feet that can’t keep still.
+        Guarantees a warm reception. Engineered in slinky fabric, this black dress falls to maxi length with statement feather trimmed sleeves. Finished with a subtle twist detail under the bust and a slit in the skirt. 
 `,
     },
     {
-        id: '16704001',
-        label: 'TODDLER 2976 SOFTY T LEATHER CHELSEA BOOTS',
+        id: '10015260001',
+        label: 'MANDY MONOCHROME JUMPSUIT BLACK',
         imageUrl:
-            'https://cdn.media.amplience.net/i/drmartens/16704001.81?$smart1024$&fmt=auto',
+            'https://www.monsoon.co.uk/dw/image/v2/BDLV_PRD/on/demandware.static/-/Sites-monsoon-master-catalog/default/dwfcb4430f/images/large/51_10015260001_6.jpg?sw=663&sh=848&sm=cut',
         imageUrl2:
-            'https://cdn.media.amplience.net/i/drmartens/16704001.80?$smart1024$&fmt=auto',
-        altText: 'TODDLER 2976 SOFTY T LEATHER CHELSEA BOOTS',
-        price: 69.00,
+            'https://www.monsoon.co.uk/dw/image/v2/BDLV_PRD/on/demandware.static/-/Sites-monsoon-master-catalog/default/dw7a9f075e/images/large/23_10015260001_2.jpg?sw=663&sh=848&sm=cut',
+        altText: 'MANDY MONOCHROME JUMPSUIT BLACK',
+        price: 85.00,
         variants: {
-            color: ['Black — SOFTY T'],
-            size: ['1', '1.5', '2', '2.5', '3', '10', '10.5', '11', '11.5', '12', '13'],
-            style: ['CHELSEA BOOTS'],
-            silhouette: ['2976 BOOTS'],
+            color: ['Black'],
+            size: ['8', '10', '12', '14', '16', '18', '20', '22', '24'],
+            style: ['JUMPSUITS'],
         },
-        category: 'Girls',
-        brand: 'Dr Martens',
+        category: 'Women',
+        brand: 'Monsoon',
         description: `
-        The toddler-sized 2976 Chelsea boot is a Docs classic made miniature — crafted in lightweight yet durable full-grain leather, with a soft feel.
-
-* Great school style
-* Air-cushioned sole is hard-wearing with good slip resistance
-* Elastic gussets and inner ankle zip for easy-on, easy-off access
-* Cushioned sock liner for extra comfort
-* Retains classic Docs DNA, like grooved edges, yellow stitching, and heel-loop
-`,
-    },
-    {
-        id: 'AC989006',
-        label: 'RUBBERISED KIEV LEATHER BACKPACK',
-        imageUrl:
-            'https://cdn.media.amplience.net/i/drmartens/AC989006.81?$smart1024$&fmt=auto',
-        imageUrl2:
-            'https://cdn.media.amplience.net/i/drmartens/AC989006.80?$smart1024$&fmt=auto',
-        altText: 'RUBBERISED KIEV LEATHER BACKPACK',
-        price: 189.00,
-        variants: {
-            color: ['Black — KIEV & SMOOTH'],
-        },
-        category: 'Accessories',
-        brand: 'Dr Martens',
-        description: `
-        A bag built to survive the winter months and beyond. Constructed from Rubberised leather and Extra Tough 50/50, this modular backpack is equipped with two detachable and movable pockets, which you can wear as a crossbody bag. Fitted with matte black clips and a drawstring closure to keep everything secure, it's fitted with adjustable padded shoulder straps for all-day comfort.
-
-* Rubberised Leather looks and feels like rubber but is actually a PU-coated leather
-* Extra Tough 50/50 is an extra tough, synthetic woven fabric with exceptional strength and elasticity. Made with 50% recycled plastic
-* Length: 12"; Width: 15.5"; Depth: 5"
+        As simple as black and white... Literally. This jumpsuit is organically chic with its monochrome finish, wide legs and halterneck. Finished with a keyhole button on the reverse, add a pop of colour with our selection of heels (if you fancy it).
     `,
     },
     {
-        id: '31391005',
-        label: 'JORGE SMILEY® SUEDE MULES',
+        id: '61622226',
+        label: 'FAIR ISLE LONDON BUS JUMPER IVORY',
         imageUrl:
-            'https://cdn.media.amplience.net/i/drmartens/31391005.81?$smart1024$&fmt=auto',
+            'https://www.monsoon.co.uk/dw/image/v2/BDLV_PRD/on/demandware.static/-/Sites-monsoon-master-catalog/default/dw37117093/images/large/01_61622226_2.jpg?sw=663&sh=848&sm=cut',
         imageUrl2:
-            'https://cdn.media.amplience.net/i/drmartens/31391005.80?$smart1024$&fmt=auto',
-        altText: 'JORGE SMILEY® SUEDE MULES',
-        price: 139.00,
+            'https://www.monsoon.co.uk/dw/image/v2/BDLV_PRD/on/demandware.static/-/Sites-monsoon-master-catalog/default/dw6883c733/images/large/04_61622226_4.jpg?sw=663&sh=848&sm=cut',
+        altText: 'FAIR ISLE LONDON BUS JUMPER IVORY',
+        price: 28.00,
         variants: {
-            color: ['Black — LONG NAPPED SUEDE'],
-            size: ['3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13'],
-            style: ['MULES'],
+            color: ['Ivory'],
+            size: ['6-12 mths', '12-18 mths', '18-24 mths', '2-3 yrs', '3-4 yrs', '4-5 yrs', '5-6 yrs', '7-8 yrs'],
+            style: ['JUMPERS & CARDIGANS'],
         },
-        category: 'Unisex',
-        brand: 'Dr Martens',
+        category: 'Kids',
+        brand: 'Monsoon',
         description: `
-        In the 80s and 90s, Smiley® became the symbol of electronic music subcultures founded on acceptance and uninhibited joy — the Jorge Smiley® slip-on celebrates music’s positivity and the defiant optimism of the dancefloor. We’ve rebuilt the versatile mule using black Chewbacca suede, and a Bouclé Smiley® badge, with Smiley® branded sock artwork. The mule is fastened with DM’s branded buckles and stands on our grooved Shore outsole secured with yellow welt stitching.
-
-* Long Napped suede has a heavy nap with a casual distressed appearance. Wipe away dirt with a damp cloth and brush carefully and only as required. Apply Dr. Martens Ultra Protector spray for an additional layer of protection.
-* Our Goodyear-welted lines are heat-sealed at up to 700˚C and reinforced with our signature welt stitch.
+        Beep beep! Christmas is coming. So dress them for the festivities with this jumper, built with a chunky cotton knit. The cosy Fair Isle print features a big red bus carrying a Christmas tree, with snowflake detailing throughout. 
     `,
     },
     {
