@@ -121,8 +121,8 @@ const App = () => {
         if (apiKey) {
             mParticle.init(apiKey, mParticleConfig);
             googleanalyticsKit.register(mParticleConfig);
-            braze.initialize('71b8c711-55c6-46d9-af50-6769954bebf7', {
-                baseUrl: 'sdk.iad-01.braze.com',
+            braze.initialize('79fdc5ce-2cab-4986-9317-55fd517ebc1d', {
+                baseUrl: 'sdk.iad-03.braze.com',
                 enableLogging: true,
                 noCookies: true,
                 /* manageServiceWorkerExternally: false,
