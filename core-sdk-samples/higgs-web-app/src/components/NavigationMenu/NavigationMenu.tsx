@@ -308,7 +308,7 @@ const NavigationMenu: React.FC = () => {
                     my: '20px',
                 },
             ]}>
-                PERSONALISE
+                REWARDS
             </Button>
         </Badge>,
 
