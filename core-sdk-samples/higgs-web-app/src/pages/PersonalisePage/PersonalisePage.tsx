@@ -74,7 +74,7 @@ const PersonalisePage: React.FC<PersonaliseModalProps> = ({
                 mParticle.EventType.Transaction,
                 customAttributes,
             );
-            mParticle.Identity.login({userIdentities: {email: email}}
+            mParticle.Identity.login({userIdentities: {email: email}});
             currUser.setUserAttribute('Newsletter Subscriber', 'true');
         }
         setEmail('');
