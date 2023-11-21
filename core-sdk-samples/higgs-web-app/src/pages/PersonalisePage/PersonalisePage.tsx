@@ -75,6 +75,14 @@ const PersonalisePage: React.FC<PersonaliseModalProps> = ({
                 customAttributes,
             );
             currUser.setUserAttribute('Newsletter Subscriber', 'true');
+            const identityRequest: mParticle.IdentityApiData = {
+                userIdentities: {
+                    email: `${email}`,
+                },
+            };
+            const identityCallback: mParticle.IdentityCallback = (result) => {
+            };
+            mParticle.Identity.login(identityRequest, identityCallback);
         }
         setEmail('');
         closeModal();
