@@ -11,7 +11,7 @@ const products: Product[] = [
         variants: {
             color: ['Teal'],
             size: ['3-4', '5-6', '7-8', '9-10', '11-12', '12-13', '14-15'],
-            style: ['GIRLS DRESSES'],
+            style: ['CHRISTMAS'],
         },
         category: 'Kids',
         brand: "Monsoon",
@@ -131,7 +131,7 @@ const products: Product[] = [
         variants: {
             color: ['Ivory'],
             size: ['6-12 mths', '12-18 mths', '18-24 mths', '2-3 yrs', '3-4 yrs', '4-5 yrs', '5-6 yrs', '7-8 yrs'],
-            style: ['JUMPERS & CARDIGANS'],
+            style: ['CHRISTMAS'],
         },
         category: 'Kids',
         brand: 'Monsoon',
