@@ -153,7 +153,7 @@ const products: Product[] = [
             size: ['8', '10', '12', '14', '16', '18', '20', '22', '24'],
             style: ['EVENING DRESSES'],
         },
-        category: 'Women',
+        category: 'Womens',
         brand: "Monsoon",
         description: `
         Bagged: A new dress and endless compliments. This piece is designed in velvet with a blend of prints in bursting hues. As flamboyant as it is feminine, it features puff shoulders and a v-neckline, with subtle definition under the bust. Finished with buttons through the front.
