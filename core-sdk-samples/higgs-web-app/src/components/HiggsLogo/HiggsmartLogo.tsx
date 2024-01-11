@@ -1,6 +1,6 @@
 import { Box } from '@mui/material';
 // import logo from '../../assets/images/higgsmart-logo.svg';
-import logo from '../../assets/images/monsoon-logo-white-3.png';
+import logo from 'https://remotion.se/wp-content/uploads/2023/03/Remotion_Logo_Off-White.svg';
 
 const HiggsmartLogo = () => (
     <Box
