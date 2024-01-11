@@ -185,7 +185,7 @@ const PersonalisePage: React.FC<PersonaliseModalProps> = ({
                 <Grid item>
                     <DialogContent>
                         <Typography variant='body1' align='center'>
-                            Enjoy 15% off* your first order when you sign up to Monsoon Reward
+                            Enjoy 15% off* your first order when you sign up to Remotion Reward
                         </Typography>
                     </DialogContent>
                 </Grid>
