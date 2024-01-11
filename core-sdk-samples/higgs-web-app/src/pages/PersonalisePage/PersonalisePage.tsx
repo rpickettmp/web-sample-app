@@ -12,7 +12,7 @@ import {
     InputAdornment,
     TextField,
 } from '@mui/material';
-import MonsoonLogo from '../../assets/images/monsoon-logo-white-3.png';
+import RemotionLogo from '../../assets/images/Remotion_Logo_Off-White.svg';
 import SalesImage from '../../assets/images/sale.png';
 import DiscountTopImage from '../../assets/images/bannertop.png';
 import DiscountBottomImage from '../../assets/images/bannerbottom.png';
@@ -163,8 +163,8 @@ const PersonalisePage: React.FC<PersonaliseModalProps> = ({
                     >
                         <Box
                             component='img'
-                            src={MonsoonLogo}
-                            alt='Monsoon Logo'
+                            src={RemotionLogo}
+                            alt='Remotion Logo'
                             sx={{
                                 width: '100%',
                                 height: 'auto',
