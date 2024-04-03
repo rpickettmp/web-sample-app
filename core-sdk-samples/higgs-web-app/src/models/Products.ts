@@ -21,22 +21,22 @@ const products: Product[] = [
     },
     {
         id: '1226858001',
-        label: 'Linen-blend suit waistcoat',
+        label: 'Flutter-sleeved throw-on dress',
         imageUrl:
-            'https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F76%2F4c%2F764c8d81a2787a5de3bedde3023544ff6d38e56a.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D',
+            'https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F97%2F29%2F97293adfa36f99ff7e2c327bceb7d8ca55616b95.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]',
         imageUrl2:
-            'https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F2e%2F23%2F2e23e9e30ec8e532ecb3ac26551c5d9d0b3a6b38.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D',
-        altText: 'Linen-blend suit waistcoat',
-        price: 42.99,
+            'https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fe8%2F1f%2Fe81f8aae0f1aa8e464cc385849129d2d1b3c9799.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D',
+        altText: 'Flutter-sleeved throw-on dress',
+        price: 15.99,
         variants: {
-            color: ['White'],
-            size: ['6', '8', '10', '12', '14', '16', '18'],
-            style: ['Waistcoats'],
+            color: ['Black'],
+            size: ['3XS', 'XXS', 'XS', 'S', 'M', 'L', 'XL'],
+            style: ['Short Dresses'],
         },
         category: 'Women',
         brand: 'H&M',
         description: `
-        Tailored, fitted waistcoat in an airy weave made from a linen and viscose blend. V-neckline, pearly buttons at the front, welt front pockets and a single back vent. Lined.
+        Short dress in a cotton crêpe weave with a V-shaped neckline and flutter sleeves. Fitted bodice, a gathered seam at the waist and a gently flared skirt with a gathered tier. Lined.
 `,
     },
     {
@@ -63,15 +63,15 @@ const products: Product[] = [
         id: '1027844046',
         label: "Linen-blend shirt",
         imageUrl:
-            'https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F52%2F92%2F52922f3fbcbe261a6ec9e2fbd07b919eeed41840.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]',
+            'https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fae%2F8d%2Fae8d78f39b68f88e08501cf9256d6f955bcd9f58.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]',
         imageUrl2:
-            'https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Ff8%2Fe4%2Ff8e449b006de92592086b228f29e4da9746b6ba1.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D',
+            'https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F73%2Fbf%2F73bfd82456514aa50b81c2b1f9329e24025cbff8.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D',
         altText: 'Linen-blend shirt',
         category: 'Women',
         brand: 'H&M',
         price: 18.99,
         variants: {
-            color: ['Light blue'],
+            color: ['Khaki green'],
             size: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
             style: ['Shirts'],
         },
