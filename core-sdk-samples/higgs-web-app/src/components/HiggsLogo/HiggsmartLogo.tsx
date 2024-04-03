@@ -1,6 +1,6 @@
 import { Box } from '@mui/material';
 // import logo from '../../assets/images/higgsmart-logo.svg';
-import logo from '../../assets/images/Remotion_Logo_Off-White.svg';
+import logo from '../../assets/images/H&M-Logo.svg.png';
 
 const HiggsmartLogo = () => (
     <Box
