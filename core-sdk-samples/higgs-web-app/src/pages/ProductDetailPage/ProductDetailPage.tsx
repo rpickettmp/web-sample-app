@@ -196,7 +196,7 @@ const ProductDetailPage: React.FC = () => {
                                 minWidth: 343,
                                 maxWidth: 566,
                                 width: '100%',
-                                height: 'auto',
+                                height: '100%',
                             }}
                             alt={product.altText}
                             // src={process.env.PUBLIC_URL + product.imageUrl}
