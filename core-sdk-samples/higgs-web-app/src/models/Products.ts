@@ -40,23 +40,23 @@ const products: Product[] = [
 `,
     },
     {
-        id: '1217677005',
-        label: 'Wide pull-on trousers',
+        id: '1206248005',
+        label: 'Ribbed vest top',
         imageUrl:
-            'https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fc9%2Fff%2Fc9ffe754d3f8c9815041d710097f26cff8b03a27.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D',
+            'https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc5%2F36%2Fc5368727d4b41c2d6eff328f3e9aa283d7e1b63b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]',
         imageUrl2:
-            'https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F15%2Fd6%2F15d69f837ad558e1b03eec675ad38f1033d77cbe.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D',
-        altText: 'Wide pull-on trousers',
-        price: 14.99,
+            'https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F79%2Fe7%2F79e7b14f38c0f00a1199d961c1d25d7c3a11fa1d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D',
+        altText: 'Ribbed vest top',
+        price: 6.99,
         category: 'Women',
         brand: 'H&M',
         variants: {
-            color: ['Black'],
+            color: ['Light blue'],
             size: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
-            style: ['High Waisted Trousers'],
+            style: ['Vests'],
         },
         description: `
-        Trousers in an airy viscose weave featuring a high waist with covered elastication and a narrow drawstring. Loose fit with discreet pockets in the side seams and wide, straight legs.
+        Short, fitted vest top in ribbed jersey with a narrow cut at the top. Narrow trim around the neckline and armholes.
 `,
     },
     {
