@@ -59,7 +59,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
                     image={image}
                     alt={altText}
                     sx={{
-                        objectFit: 'contain',
+                        objectFit: 'cover',
                     }}
                     onMouseEnter={handleMouseEnter}
                     onMouseOut={handleMouseOut}
