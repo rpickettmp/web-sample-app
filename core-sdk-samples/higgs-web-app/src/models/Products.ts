@@ -1,22 +1,22 @@
 const products: Product[] = [
     {
-        id: '61433740',
-        label: 'DISCO VELVET CHRISTMAS TREE DRESS TEAL',
+        id: '1214786008',
+        label: 'Viscose tunic dress',
         imageUrl:
-            'https://www.monsoon.co.uk/dw/image/v2/BDLV_PRD/on/demandware.static/-/Sites-monsoon-master-catalog/default/dw93442a21/images/large/01_61433740_2.jpg?sw=663&sh=848&sm=cut',
+            'https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Ff9%2F95%2Ff9950f8f5e73528a632a0dc4ef2f669991d2a3fd.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]',
         imageUrl2:
-            'https://www.monsoon.co.uk/dw/image/v2/BDLV_PRD/on/demandware.static/-/Sites-monsoon-master-catalog/default/dw3f7c7893/images/large/04_61433740_4.jpg?sw=663&sh=848&sm=cut',
-        altText: 'DISCO VELVET CHRISTMAS TREE DRESS TEAL',
-        price: 38.00,
+            'https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fe7%2Faa%2Fe7aada2d7aa8579868ff9747866d70d5e52aa234.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D',
+        altText: 'Viscose tunic dress',
+        price: 18.99,
         variants: {
-            color: ['Teal'],
-            size: ['3-4', '5-6', '7-8', '9-10', '11-12', '12-13', '14-15'],
-            style: ['CHRISTMAS'],
+            color: ['Green'],
+            size: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
+            style: ['Midi Dresses'],
         },
-        category: 'Kids',
-        brand: "Monsoon",
+        category: 'Womens',
+        brand: "H&M",
         description: `
-        Oh, Christmas tree, oh, Christmas tree. Comprised of a shiny velvet t-shirt bodice and layered tulle skirt, this dress is perfect for patrolling the tree and sneaking chocolates. Finished with embroidered Christmas trees to the skirt.
+        Knee-length tunic dress in an airy viscose weave with a band collar and a V-shaped opening at the front. Loose fit with gently dropped shoulders, short sleeves and a straight-cut hem with a slit at each side. Slightly longer at the back. Unlined.
 `,
     },
     {
