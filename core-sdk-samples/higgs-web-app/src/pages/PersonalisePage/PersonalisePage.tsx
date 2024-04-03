@@ -12,7 +12,7 @@ import {
     InputAdornment,
     TextField,
 } from '@mui/material';
-import RemotionLogo from '../../assets/images/Remotion_Logo_Off-White.svg';
+import HMLogo from '../../assets/images/H&M-Logo.svg.png';
 import SalesImage from '../../assets/images/sale.png';
 import DiscountTopImage from '../../assets/images/bannertop.png';
 import DiscountBottomImage from '../../assets/images/bannerbottom.png';
@@ -163,8 +163,8 @@ const PersonalisePage: React.FC<PersonaliseModalProps> = ({
                     >
                         <Box
                             component='img'
-                            src={RemotionLogo}
-                            alt='Remotion Logo'
+                            src={HMLogo}
+                            alt='H&M Logo'
                             sx={{
                                 width: '100%',
                                 height: 'auto',
@@ -185,7 +185,7 @@ const PersonalisePage: React.FC<PersonaliseModalProps> = ({
                 <Grid item>
                     <DialogContent>
                         <Typography variant='body1' align='center'>
-                            Enjoy 15% off* your first order when you sign up to Remotion Reward
+                            Enjoy 20% off* your first order when you sign up to H&M Reward
                         </Typography>
                     </DialogContent>
                 </Grid>
@@ -287,7 +287,7 @@ const PersonalisePage: React.FC<PersonaliseModalProps> = ({
                             </Typography>
                             <Typography variant='body1' align='center' color='#f9f8f5' sx={{alignItems: 'center', justifyContent: 'center', m: 0.02, p: 0.02}}>
                                 <br />
-                                Your discount code is waiting for you. Follow the link below for 15% off your first purchase. Hurry, before it expires.
+                                Your discount code is waiting for you. Follow the link below for 20% off your first purchase. Hurry, before it expires.
                             </Typography>
                         </DialogContent>
                         <DialogActions>
