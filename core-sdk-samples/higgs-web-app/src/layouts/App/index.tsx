@@ -54,7 +54,7 @@ const App = () => {
         isDevelopmentMode: true,
 
         dataPlan: {
-            planId: 'remotion',
+            planId: 'hm',
             planVersion: 1,
         },
 
