@@ -80,6 +80,91 @@ const products: Product[] = [
 
 `,
     },
+    {
+        id: '1229100006',
+        label: "2-piece set",
+        imageUrl:
+            'https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Ff4%2F61%2Ff461dbaeca242f9e7948afedadbf90ef66c87d17.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]',
+        imageUrl2:
+            'https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fbd%2Fd0%2Fbdd086d11bea336890e4b395af8a8871da6e7fd1.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D',
+        altText: '2-piece set',
+        category: 'Kids',
+        brand: 'H&M',
+        price: 9.99,
+        variants: {
+            color: ['Purple'],
+            size: ['1-2Y', '2-3Y', '3-4Y', '4-5Y', '5-6Y', '6-7Y', '7-8Y'],
+            style: ['Sweatshirts'],
+        },
+        description: `
+        Set with a top and a coordinating pair of cycling shorts. Long-sleeved top in lightweight sweatshirt fabric with dropped shoulders and ribbing around the neckline, cuffs and hem. Cycling shorts with covered elastication at the waist.
+
+`,
+    },
+    {
+        id: '0930126091',
+        label: "Printed T-shirt",
+        imageUrl:
+            'https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F03%2Fd1%2F03d193f1e20f7dbde917168547543fd56164c185.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_girls_clothing_topstshirts_tshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]',
+        imageUrl2:
+            'https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F1c%2F82%2F1c82be9e28089fadad7937d6dfddeacc13658de4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_girls_clothing_topstshirts_tshirts%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D',
+        altText: 'Printed T-shirt',
+        category: 'Kids',
+        brand: 'H&M',
+        price: 2.99,
+        variants: {
+            color: ['Rainbow'],
+            size: ['1-2Y', '2-3Y', '3-4Y', '4-5Y', '5-6Y', '6-7Y', '7-8Y'],
+            style: ['T-Shirts'],
+        },
+        description: `
+        T-shirt in cotton jersey with a print motif on the front and a narrow trim around the neckline.
+
+`,
+    },
+    {
+        id: '1226334008',
+        label: "Frill-trimmed ribbed T-shirt",
+        imageUrl:
+            'https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F18%2F86%2F18867ef936cc3cdb5da6130a2fe5827b36401ba1.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_girls_clothing_topstshirts_tshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]',
+        imageUrl2:
+            'https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F39%2F42%2F394279157a6f4557477345279b0b0342c3c118f1.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_girls_clothing_topstshirts_tshirts%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D',
+        altText: 'Frill-trimmed ribbed T-shirt',
+        category: 'Kids',
+        brand: 'H&M',
+        price: 3.99,
+        variants: {
+            color: ['Floral'],
+            size: ['1-2Y', '2-3Y', '3-4Y', '4-5Y', '5-6Y', '6-7Y', '7-8Y'],
+            style: ['T-Shirts'],
+        },
+        description: `
+        Shirt in a linen and cotton weave with a collar, buttons down the front and a double-layered yoke with a pleat at the back. Dropped shoulders, long sleeves with buttoned cuffs, an open chest pocket and a rounded hem. Slightly longer at the back.
+
+`,
+    },
+    {
+        id: '1226386002',
+        label: "Flutter-sleeved top",
+        imageUrl:
+            'https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F28%2F7f%2F287f8ad3d7484deaa6b69ef802467d874799766c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_girls_clothing_topstshirts_tshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]',
+        imageUrl2:
+            'https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fe3%2F8b%2Fe38b12714fd5a4065087cbcf5590aba0a83ec494.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_girls_clothing_topstshirts_tshirts%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D',
+        altText: 'Flutter-sleeved top',
+        category: 'Kids',
+        brand: 'H&M',
+        price: 5.99,
+        variants: {
+            color: ['Pink'],
+            size: ['1-2Y', '2-3Y', '3-4Y', '4-5Y', '5-6Y', '6-7Y', '7-8Y'],
+            style: ['T-Shirts'],
+        },
+        description: `
+        Top in soft cotton jersey with a round neckline and flutter sleeves.
+
+`,
+    },
+
 ];
 
 export interface Product {
