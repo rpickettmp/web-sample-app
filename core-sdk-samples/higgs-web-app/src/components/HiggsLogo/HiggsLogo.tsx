@@ -1,7 +1,7 @@
 import { Box } from '@mui/material';
 // import logo from '../../assets/images/Dev-Higgs.svg';
 // import logo from 'https://www.transa.ch/e8244f7dbcc1ab027f995700b8db7846d113a5d5/assets/base/frontend-core/staticImages/transa-logo.svg';
-import logo from '../../assets/images/Remotion_Logo_Off-White.svg';
+import logo from '../../assets/images/H&M-Logo.svg.png';
 
 const HiggsLogo = () => (
     <Box
