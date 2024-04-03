@@ -13,80 +13,81 @@ const products: Product[] = [
             size: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
             style: ['Midi Dresses'],
         },
-        category: 'Womens',
+        category: 'Women',
         brand: "H&M",
         description: `
         Knee-length tunic dress in an airy viscose weave with a band collar and a V-shaped opening at the front. Loose fit with gently dropped shoulders, short sleeves and a straight-cut hem with a slit at each side. Slightly longer at the back. Unlined.
 `,
     },
     {
-        id: '64170109',
-        label: 'DI DOUBLE BOW JUMPER RED',
+        id: '1226858001',
+        label: 'Linen-blend suit waistcoat',
         imageUrl:
-            'https://www.monsoon.co.uk/dw/image/v2/BDLV_PRD/on/demandware.static/-/Sites-monsoon-master-catalog/default/dwdf676ffa/images/large/51_64170109_6.jpg?sw=663&sh=848&sm=cut',
+            'https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F76%2F4c%2F764c8d81a2787a5de3bedde3023544ff6d38e56a.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D',
         imageUrl2:
-            'https://www.monsoon.co.uk/dw/image/v2/BDLV_PRD/on/demandware.static/-/Sites-monsoon-master-catalog/default/dw23cff41c/images/large/23_64170109_2.jpg?sw=663&sh=848&sm=cut',
-        altText: 'DI DOUBLE BOW JUMPER RED',
-        price: 70.00,
+            'https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F2e%2F23%2F2e23e9e30ec8e532ecb3ac26551c5d9d0b3a6b38.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D',
+        altText: 'Linen-blend suit waistcoat',
+        price: 42.99,
         variants: {
-            color: ['Red'],
-            size: ['S', 'M', 'L', 'XL', 'XXL'],
-            style: ['KNITWEAR'],
+            color: ['White'],
+            size: ['6', '8', '10', '12', '14', '16', '18'],
+            style: ['Waistcoats'],
         },
         category: 'Women',
-        brand: 'Monsoon',
+        brand: 'H&M',
         description: `
-        Christmas jumper day? We've got you. Cut in a classic crew neck sweater, this jumper is designed with a ribbed finish and cuff sleeves. The front is sparkling with sequin bow appliques for a more subtle take on the Christmas jumper.
+        Tailored, fitted waistcoat in an airy weave made from a linen and viscose blend. V-neckline, pearly buttons at the front, welt front pockets and a single back vent. Lined.
 `,
     },
     {
-        id: '64077901',
-        label: 'SALLY SPOT COLLAR DRESS BLACK',
+        id: '1217677005',
+        label: 'Wide pull-on trousers',
         imageUrl:
-            'https://www.monsoon.co.uk/dw/image/v2/BDLV_PRD/on/demandware.static/-/Sites-monsoon-master-catalog/default/dwaf34a76a/images/large/21_64077901_1.jpg?sw=663&sh=848&sm=cut',
+            'https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F2f%2F32%2F2f3286c130ed1f09dd4d6bda9f016040330f709f.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]',
         imageUrl2:
-            'https://www.monsoon.co.uk/dw/image/v2/BDLV_PRD/on/demandware.static/-/Sites-monsoon-master-catalog/default/dwd47a90b8/images/large/25_64077901_4.jpg?sw=663&sh=848&sm=cut',
-        altText: 'SALLY SPOT COLLAR DRESS BLACK',
-        price: 85.00,
+            'https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F15%2Fd6%2F15d69f837ad558e1b03eec675ad38f1033d77cbe.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D',
+        altText: 'Wide pull-on trousers',
+        price: 14.99,
         category: 'Women',
-        brand: 'Monsoon',
+        brand: 'H&M',
         variants: {
             color: ['Black'],
-            size: ['S', 'M', 'L', 'XL', 'XXL'],
-            style: ['DRESSES'],
+            size: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
+            style: ['High Waisted Trousers'],
         },
         description: `
-        Nothing beats vintage. Inspired by the 50s, we've put our Monsoon twist on this dress, featuring a floral lace collar and beige spotty backdrop. The long sleeves and midi length make it suitable for styling through spring as much as winter (with the help of some tights and boots). Finished with pearlescent buttons through the bodice.
+        Trousers in an airy viscose weave featuring a high waist with covered elastication and a narrow drawstring. Loose fit with discreet pockets in the side seams and wide, straight legs.
 `,
     },
     {
-        id: '61304747',
-        label: "BABY VELVET SMOCK ROMPER RED",
+        id: '1027844046',
+        label: "Linen-blend shirt",
         imageUrl:
-            'https://www.monsoon.co.uk/dw/image/v2/BDLV_PRD/on/demandware.static/-/Sites-monsoon-master-catalog/default/dwf3e23759/images/large/01_61304747_2.jpg?sw=663&sh=848&sm=cut',
+            'https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F2f%2F32%2F2f3286c130ed1f09dd4d6bda9f016040330f709f.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]',
         imageUrl2:
-            'https://www.monsoon.co.uk/dw/image/v2/BDLV_PRD/on/demandware.static/-/Sites-monsoon-master-catalog/default/dwb8b3183e/images/large/04_61304747_4.jpg?sw=663&sh=848&sm=cut',
-        altText: "BABY VELVET SMOCK ROMPER RED",
-        category: 'Kids',
-        brand: 'Monsoon',
-        price: 36.00,
+            'https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F15%2Fd6%2F15d69f837ad558e1b03eec675ad38f1033d77cbe.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D',
+        altText: "Linen-blend shirt",
+        category: 'Women',
+        brand: 'H&M',
+        price: 18.99,
         variants: {
-            color: ['Burgundy'],
-            size: ['0-3 mths', '3-6 mths', '6-12 mts'],
-            style: ['BABY GIRL DRESSES'],
+            color: ['Light blue'],
+            size: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
+            style: ['Shirts'],
         },
         description: `
-        As cute as a button. Add glamour to their wardrobe with this vintage-inspired, burgundy romper. Designed in velvet, it features a statement collar, embroidered roses at the front, and buttons for fastening at the back. The perfect alternative to a party dress.
+        Shirt in a linen and cotton weave with a collar, buttons down the front and a double-layered yoke with a pleat at the back. Dropped shoulders, long sleeves with buttoned cuffs, an open chest pocket and a rounded hem. Slightly longer at the back.
+
 `,
     },
     {
         id: '10015280001',
-        label: 'PIP FEATHER MAXI DRESS BLACK',
+        label: 'Linen-blend shirt',
         imageUrl:
-            'https://www.monsoon.co.uk/dw/image/v2/BDLV_PRD/on/demandware.static/-/Sites-monsoon-master-catalog/default/dw0fbb7bf9/images/large/51_10015280001_6.jpg?sw=663&sh=848&sm=cut',
+            'https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F52%2F92%2F52922f3fbcbe261a6ec9e2fbd07b919eeed41840.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]',
         imageUrl2:
-            'https://www.monsoon.co.uk/dw/image/v2/BDLV_PRD/on/demandware.static/-/Sites-monsoon-master-catalog/default/dw96f597bc/images/large/25_10015280001_4.jpg?sw=663&sh=848&sm=cut',
-        altText: 'PIP FEATHER MAXI DRESS BLACK',
+            'https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Ff8%2Fe4%2Ff8e449b006de92592086b228f29e4da9746b6ba1.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D',
+        altText: 'Linen-blend shirt',
         price: 95.00,
         variants: {
             color: ['Black'],
