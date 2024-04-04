@@ -13,7 +13,7 @@ import {
     TextField,
 } from '@mui/material';
 import HMLogo from '../../assets/images/H&M-Logo.svg.png';
-import SalesImage from '../../assets/images/sale.png';
+import SalesImage from '../../assets/images/hmoffer.png';
 import DiscountTopImage from '../../assets/images/bannertop.png';
 import DiscountBottomImage from '../../assets/images/bannerbottom.png';
 import { ModalContainer } from '../../components/ModalContainer';
