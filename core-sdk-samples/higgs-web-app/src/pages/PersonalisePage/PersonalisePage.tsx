@@ -90,7 +90,7 @@ const PersonalisePage: React.FC<PersonaliseModalProps> = ({
     const handleCampaignButtonClick = () => {
         const customAttributes: mParticle.SDKEventAttrs = {
             'Campaign ID': '802368',
-            "Campaign Name": "2023 Black Friday Sales",
+            "Campaign Name": "2024 New Customer Offer",
         };
         mParticle.logEvent(
             'Campaign Viewed',
@@ -102,7 +102,7 @@ const PersonalisePage: React.FC<PersonaliseModalProps> = ({
     const handleDiscountButtonClick = () => {
         const customAttributes: mParticle.SDKEventAttrs = {
             'Campaign ID': '802368',
-            "Campaign Name": "2023 Black Friday Sales",
+            "Campaign Name": "2024 New Customer Offer",
         };
         mParticle.logEvent(
             'Discount Viewed',
@@ -241,7 +241,7 @@ const PersonalisePage: React.FC<PersonaliseModalProps> = ({
                     <Box
                         component='img'
                         src={SalesImage}
-                        alt='Monsoon Sales'
+                        alt='H&M'
                         sx={{
                             width: '100%',
                             height: 'auto',
@@ -296,7 +296,7 @@ const PersonalisePage: React.FC<PersonaliseModalProps> = ({
                                 sx={{color: '#000000', backgroundColor: '#f9f8f5'}}
                                 onClick={handleDiscountButtonClick}
                             >
-                                APPLY 15% OFF
+                                APPLY 20% OFF
                             </Button>
                         </DialogActions>
                         <Box
