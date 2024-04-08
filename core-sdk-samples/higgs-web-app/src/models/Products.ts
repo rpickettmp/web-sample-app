@@ -164,6 +164,91 @@ const products: Product[] = [
 
 `,
     },
+    {
+        id: '0979329086',
+        label: "Cotton T-shirt",
+        imageUrl:
+            'https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fe4%2F63%2Fe463a651cd54cb45453eacd8cca8bcef873a69c3.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]',
+        imageUrl2:
+            'https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F12%2Fa9%2F12a9fd3a50ad0a7d1274c160aaffb2eff3a7b10d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D',
+        altText: 'Cotton T-shirt',
+        category: 'Women',
+        brand: 'H&M',
+        price: 9.99,
+        variants: {
+            color: ['Light green'],
+            size: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
+            style: ['T-Shirts'],
+        },
+        description: `
+        T-shirt in soft cotton jersey with a round, rib-trimmed neckline.
+
+`,
+    },
+    {
+        id: '1231754003',
+        label: "Belted shirt dress",
+        imageUrl:
+            'https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F3b%2F76%2F3b76ad06457493e5b819a16d22d7dd4a9d25ecaf.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_dresses_mididresses%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]',
+        imageUrl2:
+            'https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Ffc%2Fde%2Ffcdebf725c8ed3c8c7555eaaedffd92afd539028.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_dresses_mididresses%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D',
+        altText: 'Belted shirt dress',
+        category: 'Women',
+        brand: 'H&M',
+        price: 37.99,
+        variants: {
+            color: ['Blue'],
+            size: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
+            style: ['Midi Dresses'],
+        },
+        description: `
+        Calf-length, loose-fit dress in a crêpe weave with a collar, V-shaped opening and buttons down the front. Short sleeves with turn-ups and an elasticated waist belt with a wooden buckle. Unlined.
+
+`,
+    },
+    {
+        id: '1224402003',
+        label: "Pointelle-knit top",
+        imageUrl:
+            'https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fb1%2Ff4%2Fb1f44ffc7e96f673b766ab009b0ce14f752343dd.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]',
+        imageUrl2:
+            'https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fd1%2F73%2Fd173a4158fe0bccb19abd45ec954688ac17f8866.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D',
+        altText: 'Pointelle-knit top',
+        category: 'Women',
+        brand: 'H&M',
+        price: 18.99,
+        variants: {
+            color: ['Light beige'],
+            size: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
+            style: ['Tops'],
+        },
+        description: `
+        Short top in a soft pointelle knit made from a cotton blend. Round neckline, flutter sleeves and a straight hem.
+
+`,
+    },
+    {
+        id: '1221324002',
+        label: "Cropped smocked top",
+        imageUrl:
+            'https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fcd%2F38%2Fcd389058bdf1d835ad2d32f92fd25bf22cd75fe2.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]',
+        imageUrl2:
+            'https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fd5%2F48%2Fd54837b0043f5d1a86a7fba1dae913845783e90e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D',
+        altText: 'Cropped smocked top',
+        category: 'Women',
+        brand: 'H&M',
+        price: 9.99,
+        variants: {
+            color: ['White'],
+            size: ['XS', 'S', 'M', 'L', 'XL', 'XXL'],
+            style: ['Tops'],
+        },
+        description: `
+        Cropped, fitted top in smocked jersey with a square neckline and wide, elasticated shoulder straps with small frill trims. Small frill trim at the top and a wide frill trim at the hem.
+
+`,
+    },
+
 
 ];
 
