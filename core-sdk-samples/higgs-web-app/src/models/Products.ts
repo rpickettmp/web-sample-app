@@ -235,7 +235,7 @@ const products: Product[] = [
         imageUrl2:
             'https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fd5%2F48%2Fd54837b0043f5d1a86a7fba1dae913845783e90e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D',
         altText: 'Cropped smocked top',
-        category: 'Women',
+        category: 'Womens',
         brand: 'H&M',
         price: 9.99,
         variants: {
