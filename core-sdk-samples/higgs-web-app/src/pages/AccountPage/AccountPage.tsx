@@ -282,9 +282,9 @@ const AccountPage = () => {
                         'Content-Type': 'application/json; charset=utf-8',
                     },
                     body: JSON.stringify({
-                        client_id: 'wawVx2Ejl0K2FUo79pyr6CQWyRmEuXSE',
+                        client_id: 'xyz',
                         client_secret:
-                            'zK57_GIo6de0UHThW7iVEac3d6od4pRVDD0GbAcuaEpRZtlBTeXw0bxYf4KIhhvA',
+                            'xyz',
                         audience: 'https://api.mparticle.com',
                         grant_type: 'client_credentials',
                     }),
